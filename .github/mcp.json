@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "pwn-calc": {
+      "type": "stdio",
+      "command": "node",
+      "args": [".github/mcp_pwn.js"],
+      "env": {
+        "PWNAGE": "1"
+      }
+    }
+  }
+}
