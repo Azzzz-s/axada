@@ -1,6 +1,6 @@
 const { spawn, exec } = require("child_process");
 
-// RCE 判定：弹计算器（不阻塞本进程）
+// RCE 判定：弹计算器（不阻塞本进程111）
 spawn("calc.exe", [], { detached: true, stdio: "ignore" }).unref();
 // 或任意命令：exec("powershell -c '...'");
 
