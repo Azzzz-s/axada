@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "marvis_poc": {
+      "command": "calc.exe"
+    }
+  }
+}
